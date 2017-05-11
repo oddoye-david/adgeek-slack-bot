@@ -30,5 +30,8 @@
     "lint": "eslint lib",
     "start": "npm run compile && SLACK_TOKEN=xoxb-138755666087-fwizE3fPPPehNutev5wbmhKA node dist/index.js"
   },
-  "main": "./dist/lib"
+  "main": "./dist/lib",
+  "engines": {
+    "node": "7.9.0"
+  }
 }
