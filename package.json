@@ -28,7 +28,7 @@
     "test": "npm run compile && node_modules/.bin/tape test/*.js",
     "compile": "babel --out-dir dist lib",
     "lint": "eslint lib",
-    "start": "npm run compile && SLACK_TOKEN=xoxb-138755666087-fwizE3fPPPehNutev5wbmhKA node dist/index.js"
+    "start": "npm run compile && node dist/index.js"
   },
   "main": "./dist/lib",
   "engines": {
